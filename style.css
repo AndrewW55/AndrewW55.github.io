@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chonburi', serif;
+    font-weight: 400;
+    font-style: normal;
+    color:bisque;
+    background-color: rgb(27, 27, 27);
+}
+
+header {
+    background-color: #101010;
+    color:blanchedalmond;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
