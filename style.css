@@ -8,7 +8,7 @@ body {
     background-color: rgb(27, 27, 27);
 }
 
-h1 {
+header {
     background-color: #101010;
     color:blanchedalmond;
     padding: 15px;
@@ -21,6 +21,6 @@ h1 {
 }
 
 .social {
-    width: 128px;
-    height: 128px;
+    width: 24px;
+    height: 24px;
 }
