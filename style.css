@@ -69,6 +69,7 @@ p {
 }   
 
 a {
-    color: antiquewhite;
+    
+    color: inherit;
     size: 40px;
 }
