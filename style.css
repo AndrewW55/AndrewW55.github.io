@@ -69,7 +69,7 @@ p {
 }   
 
 a {
-    
-    color: inherit;
+    text-decoration: none;
+    color: palegoldenrod;
     size: 40px;
 }
