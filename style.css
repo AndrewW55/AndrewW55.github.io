@@ -24,7 +24,6 @@ footer {
     text-align: center;
     padding: 10px;
     position:fixed;
-    y: 1000px;
     bottom: 0;
     width: 100%;
     box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
@@ -71,5 +70,5 @@ p {
 a {
     text-decoration: none;
     color: palegoldenrod;
-    size: 40px;
+    /* use font-size if you want larger link text */
 }
