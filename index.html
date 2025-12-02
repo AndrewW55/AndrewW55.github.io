@@ -12,8 +12,19 @@
     <div class="text-content">
     <body>
         <div>
-        <h1>Andrew Wheeler</h1>
+        <h1 id="nameHeader">Andrew Wheeler</h1>
         <p>I am a high school student passionate about technology, specifically networking and cybersecurity. I am also interested in audio and music and am excited to pursue a future that combines these interests. Based in Colorado, I enjoy working on meaningful projects and connecting with like-minded individuals. </p>
+        </div>
+        <div>
+            <script>
+                function flashing_lights(){
+                    while (true){
+                        document.getElementById("nameHeader").style = "color:red"
+                        setTimeout(200)
+                        document.getElementById("nameHeader").style = "color:yellow"
+                    }
+                }
+            </script>
         </div>
     </body>
     </div>
