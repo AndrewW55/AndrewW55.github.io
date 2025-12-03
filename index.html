@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap">
     </head>
-    <body id="body">
+    <body>
         <header>
             <a href="index.html">Home</a>
             <a href="resume.html">Resume</a>
@@ -32,7 +32,7 @@
                         function randInt(max) { return Math.floor(Math.random() * (max + 1)); }
                         function randomRgb() { return `rgb(${randInt(255)}, ${randInt(255)}, ${randInt(255)})`; }
                         function changeBackgroundColor() {
-                            document.body.style.backgroundColor = randomRgb();
+                            document.style.backgroundColor = randomRgb();
                         }
                         if (btn) {
                             btn.addEventListener('click', changeBackgroundColor);
