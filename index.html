@@ -25,12 +25,23 @@
             </div>
 
             <div>
+                <button id="changeBgBtn" type="button">Change Background Color</button>
                 <script>
-                    function changeBackgroundColor(){
-                        document.getElementsByClass('body').style.background = rgb(Math.floor(Math.random() * 255), Math.floor(Math.random() * 255), Math.floor(Math.random() * 255));
-                    }
+                    (function () {
+                        const btn = document.getElementById('changeBgBtn');
+                        function randInt(max) { return Math.floor(Math.random() * (max + 1)); }
+                        function randomRgb() { return `rgb(${randInt(255)}, ${randInt(255)}, ${randInt(255)})`; }
+                        function changeBackgroundColor() {
+                            document.body.style.backgroundColor = randomRgb();
+                        }
+                        if (btn) {
+                            btn.addEventListener('click', changeBackgroundColor);
+                        } else {
+                            // expose as a fallback for manual calls
+                            window.changeBackgroundColor = changeBackgroundColor;
+                        }
+                    })();
                 </script>
-                <button onclick="changeBackgroundColor()">Change Background Color</button>
             </div>
         </main>
 
