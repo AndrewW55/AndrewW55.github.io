@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap">
     </head>
-    <body>
+    <body id="body">
         <header>
             <a href="index.html">Home</a>
             <a href="resume.html">Resume</a>
@@ -27,7 +27,7 @@
             <div>
                 <script>
                     function changeBackgroundColor(){
-                        document.getElementsByClass('body').style.color = rgb(Math.floor(Math.random() * 255), Math.floor(Math.random() * 255), Math.floor(Math.random() * 255))
+                        document.getElementsByClass('body').style.background = rgb(Math.floor(Math.random() * 255), Math.floor(Math.random() * 255), Math.floor(Math.random() * 255));
                     }
                 </script>
                 <button onclick="changeBackgroundColor()">Change Background Color</button>
